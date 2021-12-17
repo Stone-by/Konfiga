@@ -34,9 +34,9 @@ def param():
     return sum_ball
 
 
-if __name__ == '__main__':
+def start_test():
     start_time = time()
-    fio_student = input("ФИО ")
+    fio_student = "FIO_text"
     res = param()
     end_time = int((time() - start_time))
     sec = int(end_time)
