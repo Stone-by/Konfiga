@@ -4,11 +4,11 @@ import smtplib
 def send_mail(mail_send: str):
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
-    smtpObj.login('stobebydeveloper@gmail.com', 'Dsd3234bfqq44234m')
+    smtpObj.login('Почта', 'Пароль')
 
     SUBJECT = "Test result"
-    TO = "stobebydeveloper@gmail.com"
-    FROM = "stobebydeveloper@gmail.com"
+    TO = "Откого"
+    FROM = "Кому"
     text = mail_send
     BODY = "\r\n".join(("From: %s" % FROM, "To: %s" % TO, "Subject: %s" % SUBJECT, "", text))
 
