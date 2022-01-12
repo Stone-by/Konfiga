@@ -7,8 +7,8 @@ def send_mail(mail_send: str):
     smtpObj.login('Почта', 'Пароль')
 
     SUBJECT = "Test result"
-    TO = "Откого"
-    FROM = "Кому"
+    TO = "Кому"
+    FROM = "Откого"
     BODY = "\r\n".join(("From: %s" % FROM, "To: %s" % TO, "Subject: %s" % SUBJECT, "", mail_send))
 
     smtpObj.sendmail(FROM, [TO], BODY)
