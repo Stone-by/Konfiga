@@ -7,11 +7,10 @@ def send_mail(mail_send: str):
     smtpObj.login('stobebydeveloper@gmail.com', 'Dsd3234bfqq44234m')
 
     SUBJECT = "Test result"
-    TO = "fastscrul@gmail.com"
-    # TO = "bashlykova_a_a_mirea@mail.ru"
+    TO = "stobebydeveloper@gmail.com"
     FROM = "stobebydeveloper@gmail.com"
-
-    BODY = "\r\n".join(("From: %s" % FROM, "To: %s" % TO, "Subject: %s" % SUBJECT, "", mail_send))
+    text = mail_send
+    BODY = "\r\n".join(("From: %s" % FROM, "To: %s" % TO, "Subject: %s" % SUBJECT, "", text))
 
     smtpObj.sendmail(FROM, [TO], BODY)
     smtpObj.quit()
