@@ -1,142 +1,106 @@
-def answer_1(i, answer_text):
+def answer_1(i: int, answer_text: str):
     if i == 1:
-        ques_answer = answer_text
-        correct_ques = "1"
-        if ques_answer == correct_ques:
+        if answer_text == "1":
             return 1
         else:
             return 0
     elif i == 2:
-        ques_answer = answer_text
-        correct_ques = "2"
-        if ques_answer == correct_ques:
+        if answer_text == "2":
             return 1
         else:
             return 0
     elif i == 3:
-        ques_answer = answer_text
-        correct_ques = "3"
-        if ques_answer == correct_ques:
+        if answer_text == "3":
             return 1
         else:
             return 0
 
 
-def answer_2(i, answer_text):
+def answer_2(i: int, answer_text: str):
     if i == 1:
-        ques_answer = answer_text
-        correct_ques = "4"
-        if ques_answer == correct_ques:
+        if answer_text == "4":
             return 1
         else:
             return 0
     elif i == 2:
-        ques_answer = answer_text
-        correct_ques = "5"
-        if ques_answer == correct_ques:
+        if answer_text == "5":
             return 1
         else:
             return 0
     elif i == 3:
-        ques_answer = answer_text
-        correct_ques = "6"
-        if ques_answer == correct_ques:
+        if answer_text == "6":
             return 1
         else:
             return 0
 
 
-def answer_3(i, answer_text):
+def answer_3(i: int, answer_text: str):
     if i == 1:
-        ques_answer = answer_text
-        correct_ques = "7"
-        if ques_answer == correct_ques:
+        if answer_text == "7":
             return 1
         else:
             return 0
     elif i == 2:
-        ques_answer = answer_text
-        correct_ques = "8"
-        if ques_answer == correct_ques:
+        if answer_text == "8":
             return 1
         else:
             return 0
     elif i == 3:
-        ques_answer = answer_text
-        correct_ques = "9"
-        if ques_answer == correct_ques:
+        if answer_text == "9":
             return 1
         else:
             return 0
 
 
-def answer_4(i, answer_text):
+def answer_4(i: int, answer_text: str):
     if i == 1:
-        ques_answer = answer_text
-        correct_ques = "10"
-        if ques_answer == correct_ques:
+        if answer_text == "10":
             return 1
         else:
             return 0
     elif i == 2:
-        ques_answer = answer_text
-        correct_ques = "11"
-        if ques_answer == correct_ques:
+        if answer_text == "11":
             return 1
         else:
             return 0
     elif i == 3:
-        ques_answer = answer_text
-        correct_ques = "12"
-        if ques_answer == correct_ques:
+        if answer_text == "12":
             return 1
         else:
             return 0
 
 
-def answer_5(i, answer_text):
+def answer_5(i: int, answer_text: str):
     if i == 1:
-        ques_answer = answer_text
-        correct_ques = "13"
-        if ques_answer == correct_ques:
+        if answer_text == "13":
             return 1
         else:
             return 0
     elif i == 2:
-        ques_answer = answer_text
-        correct_ques = "14"
-        if ques_answer == correct_ques:
+        if answer_text == "14":
             return 1
         else:
             return 0
     elif i == 3:
-        ques_answer = answer_text
-        correct_ques = "15"
-        if ques_answer == correct_ques:
+        if answer_text == "15":
             return 1
         else:
             return 0
 
 
-def answer_6(i, answer_text):
+def answer_6(i: int, answer_text: str):
     if i == 1:
-        ques_answer = answer_text
-        correct_ques = "16"
-        if ques_answer == correct_ques:
+        if answer_text == "16":
             return 1
         else:
             return 0
     elif i == 2:
-        ques_answer = answer_text
-        correct_ques = "17"
-        if ques_answer == correct_ques:
+        if answer_text == "17":
             return 1
         else:
             return 0
     elif i == 3:
-        ques_answer = answer_text
-        correct_ques = "18"
-        if ques_answer == correct_ques:
+        if answer_text == "18":
             return 1
         else:
             return 0

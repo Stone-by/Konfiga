@@ -1,76 +1,52 @@
 def question_1(i: int):
-    rand = i
-    if rand == 1:
-        ques = "1"
-        return ques
-    elif rand == 2:
-        ques = "2"
-        return ques
-    elif rand == 3:
-        ques = "3"
-        return ques
+    if i == 1:
+        return "1"
+    elif i == 2:
+        return "2"
+    elif i == 3:
+        return "3"
 
 
 def question_2(i: int):
-    rand = i
-    if rand == 1:
-        ques = "4"
-        return ques
-    elif rand == 2:
-        ques = "5"
-        return ques
-    elif rand == 3:
-        ques = "6"
-        return ques
+    if i == 1:
+        return "4"
+    elif i == 2:
+        return "5"
+    elif i == 3:
+        return "6"
 
 
 def question_3(i: int):
-    rand = i
-    if rand == 1:
-        ques = "7"
-        return ques
-    elif rand == 2:
-        ques = "8"
-        return ques
-    elif rand == 3:
-        ques = "9"
-        return ques
+    if i == 1:
+        return "7"
+    elif i == 2:
+        return "8"
+    elif i == 3:
+        return "9"
 
 
 def question_4(i: int):
-    rand = i
-    if rand == 1:
-        ques = "10"
-        return ques
-    elif rand == 2:
-        ques = "11"
-        return ques
-    elif rand == 3:
-        ques = "12"
-        return ques
+    if i == 1:
+        return "10"
+    elif i == 2:
+        return "11"
+    elif i == 3:
+        return "12"
 
 
 def question_5(i: int):
-    rand = i
-    if rand == 1:
-        ques = "13"
-        return ques
-    elif rand == 2:
-        ques = "14"
-        return ques
-    elif rand == 3:
-        ques = "15"
-        return ques
+    if i == 1:
+        return "13"
+    elif i == 2:
+        return "14"
+    elif i == 3:
+        return "15"
 
 
 def question_6(i: int):
-    rand = i
-    if rand == 1:
-        ques = "16"
-        return ques
-    elif rand == 2:
-        ques = "17"
-        return ques
-    elif rand == 3:
-        ques = "18"
-        return ques
+    if i == 1:
+        return "16"
+    elif i == 2:
+        return "17"
+    elif i == 3:
+        return "18"
