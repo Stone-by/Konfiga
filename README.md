@@ -31,4 +31,4 @@
 
 ## Установка и запуск программы
 
-Для установки и работы приложения необходим файл [main.exe](https://github.com/Stone-by/Konfiga/releases/download/V1.0/main.exe).
+Для установки и работы приложения необходим файл [default.rar](https://github.com/Stone-by/Konfiga/releases/download/V1.0/default.rar).
